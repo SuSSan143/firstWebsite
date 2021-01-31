@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Philosopher', sans-serif;
+  background-color: #e8ffe8;
+}
+
+.top {
+  background-color: #8AD7C1;
+  padding-top: 80px;
+  color: #706897
+}
+
+.name {
+  padding-top: 50px;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 50px;
+  top: 90px;
+}
+
+.cloud2 {
+  position: absolute;
+}
+
+.mountain {
+  position: relative;
+  /* width: 480px; */
+}
+
+.middle {
+  text-align: center;
+}
+
+.buttom {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 11px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+}
+
+.para{
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h2{
+  font-size: 2.34rem;
+  color: #30e3ca;
+}
+
+h3, a{
+  color: #11999E;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill1 {
+  float: left;
+  margin-right: 30px;
+}
+
+
+.skill2 {
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  -webkit-box-shadow: 0 1px 3px #120112;
+  -moz-box-shadow: 0 1px 3px #120112;
+  box-shadow: 0 1px 3px #120112;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  border: solid #3e17eb 3px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.bottom-container{
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #66BFBF;
+}
+
+.pic{
+  background-color: #c3bef0;
+  border-radius: 50px;
+  height: 200px;
+  width: 200px;
+}
+
+.profile{
+  margin: 30px;
+  /* padding: 0 350px; */
+}
+
+.contact-me {
+  margin: 30px auto 80px;
+}
+
+hr{
+  border-style: dotted none none none;
+  border-width: 0.37rem;
+  width: 5%;
+  color: #769fcd;
+}
+
+.middle-container{
+  background-color: #e8ffe8;
+}
+
+@media (max-width: 620px) {
+  .mountain{
+    width: 480px;
+  }
+}
